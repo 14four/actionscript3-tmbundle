@@ -1,61 +1,55 @@
-//AS3///////////////////////////////////////////////////////////////////////////
-// 
-// Copyright ${TM_YEAR} ${TM_ORGANIZATION_NAME:-$TM_FULLNAME}
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 package ${TM_CLASS_PATH}
 {
 
-/**
- * Error subclass.
- * 
- * @langversion ActionScript 3.0
- * @playerversion Flash 9.0
- * 
- * @author ${TM_FULLNAME}
- * @since  ${TM_DATE}
- */
-public class ${TM_NEW_FILE_BASENAME} extends Error
-{
-	
-	//--------------------------------------
-	// CLASS CONSTANTS
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  CONSTRUCTOR
-	//--------------------------------------
-	
 	/**
-	 * @constructor
-	 * @param message The message that describes this error.
-	 */
-	public function ${TM_NEW_FILE_BASENAME}(message:String)
-	{
-		super(message);
-	}
-	
-	//--------------------------------------
-	//  PRIVATE VARIABLES
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  GETTER/SETTERS
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  PUBLIC METHODS
-	//--------------------------------------
+	 * ${TM_NEW_FILE_BASENAME}.
+ 	 * Error subclass description.
+ 	 * 
+ 	 * @langversion ActionScript 3.0
+ 	 * @playerversion Flash ${TM_PLAYER_VERSION:-9.0}
+ 	 * 
+ 	 * @author ${TM_FULLNAME}
+ 	 * @since ${TM_DATE}
+	 * @copyright ${TM_ORGANIZATION_NAME}-${TM_YEAR} 
+ 	 */
 
-	//--------------------------------------
-	//  EVENT HANDLERS
-	//--------------------------------------
+	public class ${TM_NEW_FILE_BASENAME} extends Error
+	{
 	
-	//--------------------------------------
-	//  PRIVATE & PROTECTED INSTANCE METHODS
-	//--------------------------------------
+		//---------------------------------------
+		// VARIABLES
+		//---------------------------------------
+		
+		//--------------------------------------
+		//  CONSTRUCTOR
+		//--------------------------------------
+
+		/**
+		 * @constructor
+		 */
+		public function ${TM_NEW_FILE_BASENAME}($message:String)
+		{
+			super(message);
+			
+		}
+
+		//--------------------------------------
+		//  GETTER/SETTERS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  PUBLIC METHODS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  EVENT HANDLERS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  PRIVATE & PROTECTED  METHODS
+		//--------------------------------------
+
 	
-}
+	}
 
 }

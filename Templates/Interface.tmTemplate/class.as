@@ -1,32 +1,42 @@
-//AS3///////////////////////////////////////////////////////////////////////////
-// 
-// Copyright ${TM_YEAR} ${TM_ORGANIZATION_NAME:-$TM_FULLNAME}
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 package ${TM_CLASS_PATH}
 {
 
-/**
- * Interface describing the contract for...
- * 
- * @langversion ActionScript 3.0
- * @playerversion Flash 9.0
- * 
- * @author ${TM_FULLNAME}
- * @since  ${TM_DATE}
- */
-public interface ${TM_NEW_FILE_BASENAME}
-{
+	/**
+	 * ${TM_NEW_FILE_BASENAME}.
+ 	 * Interface description.
+ 	 * 
+ 	 * @langversion ActionScript 3.0
+ 	 * @playerversion Flash ${TM_PLAYER_VERSION:-9.0}
+ 	 * 
+ 	 * @author ${TM_FULLNAME}
+ 	 * @since ${TM_DATE}
+	 * @copyright ${TM_ORGANIZATION_NAME}-${TM_YEAR} 
+ 	 */
+
+	public interface ${TM_NEW_FILE_BASENAME}
+	{
 	
-	//--------------------------------------
-	//  PUBLIC METHODS
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  GETTER/SETTERS
-	//--------------------------------------
-	
-}
+		//---------------------------------------
+		// VARIABLES
+		//---------------------------------------
+
+		//--------------------------------------
+		//  GETTER/SETTERS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  PUBLIC METHODS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  EVENT HANDLERS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  PRIVATE & PROTECTED  METHODS
+		//--------------------------------------
+
+		
+	}
 
 }

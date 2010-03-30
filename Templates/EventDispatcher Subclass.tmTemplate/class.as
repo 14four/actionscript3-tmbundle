@@ -1,62 +1,57 @@
-//AS3///////////////////////////////////////////////////////////////////////////
-// 
-// Copyright ${TM_YEAR} ${TM_ORGANIZATION_NAME:-$TM_FULLNAME}
-// 
-////////////////////////////////////////////////////////////////////////////////
-
 package ${TM_CLASS_PATH}
 {
 
-import flash.events.EventDispatcher;
+	import flash.events.EventDispatcher;
 
-/**
- * EventDispatcher subclass description.
- * 
- * @langversion ActionScript 3.0
- * @playerversion Flash 9.0
- * 
- * @author ${TM_FULLNAME}
- * @since  ${TM_DATE}
- */
-public class ${TM_NEW_FILE_BASENAME} extends EventDispatcher
-{
-	
-	//--------------------------------------
-	// CLASS CONSTANTS
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  CONSTRUCTOR
-	//--------------------------------------
-	
 	/**
-	 * @constructor
-	 */
-	public function ${TM_NEW_FILE_BASENAME}()
+	 * ${TM_NEW_FILE_BASENAME}.
+ 	 * Event dispatcher subclass description.
+ 	 * 
+ 	 * @langversion ActionScript 3.0
+ 	 * @playerversion Flash ${TM_PLAYER_VERSION:-9.0}
+ 	 * 
+ 	 * @author ${TM_FULLNAME}
+ 	 * @since ${TM_DATE}
+	 * @copyright ${TM_ORGANIZATION_NAME}-${TM_YEAR}
+ 	 */
+
+	public class ${TM_NEW_FILE_BASENAME} extends EventDispatcher
 	{
-		super();
+
+		//---------------------------------------
+		// VARIABLES
+		//---------------------------------------
+		
+		//--------------------------------------
+		//  CONSTRUCTOR
+		//--------------------------------------
+	
+		/**
+		 * @constructor
+		 */
+		public function ${TM_NEW_FILE_BASENAME}()
+		{
+			super();
+			
+		}
+
+		//--------------------------------------
+		//  GETTER/SETTERS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  PUBLIC METHODS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  EVENT HANDLERS
+		//--------------------------------------
+
+		//--------------------------------------
+		//  PRIVATE & PROTECTED  METHODS
+		//--------------------------------------
+
+	
 	}
-	
-	//--------------------------------------
-	//  PRIVATE VARIABLES
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  GETTER/SETTERS
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  PUBLIC METHODS
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  EVENT HANDLERS
-	//--------------------------------------
-	
-	//--------------------------------------
-	//  PRIVATE & PROTECTED INSTANCE METHODS
-	//--------------------------------------
-	
-}
 
 }

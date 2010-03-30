@@ -24,6 +24,7 @@ class SnippetProvider
   attr_reader :namespace
   attr_reader :o_method
   attr_reader :property
+  attr_reader :sdoc
   attr_reader :set
   attr_reader :var
 
@@ -46,6 +47,7 @@ class SnippetProvider
     @namespace        = bp+'namespace.erb'
     @o_method         = bp+'o_method.erb'
     @property         = bp+'property.erb'
+    @sdoc              = bp+'sdoc.erb'
     @set              = bp+'set.erb'
     @var              = bp+'var.erb'
 

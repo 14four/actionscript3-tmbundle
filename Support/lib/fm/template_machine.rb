@@ -112,8 +112,8 @@ class ActionScript3TemplateMachine < TemplateMachine
   def initialize
     super
 
-    @docs = (ENV['TM_ASDOC_GENERATION'] != nil)
-    @bans = (ENV['TM_AS3_BANNER_GENERATION'] != nil)
+    @docs = (ENV['TM_ASDOC_TEMPLATE_GENERATION'] != nil && ENV['TM_ASDOC_TEMPLATE_GENERATION'] == 'on' )
+    @bans = (ENV['TM_AS3_BANNER_GENERATION'] != nil && ENV['TM_AS3_BANNER_GENERATION'] == 'on')
 
   end
 

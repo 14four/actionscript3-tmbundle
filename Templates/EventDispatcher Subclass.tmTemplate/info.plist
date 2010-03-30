@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>command</key>
@@ -9,7 +9,7 @@
 #
 #  This gives us the ability to control whether or not documenation and banners
 #  are automatically added by the application. Please set the shell variables 
-#  TM_ASDOC_GENERATION and TM_AS3_BANNER_GENERATION to any value to have the
+#  TM_ASDOC_TEMPLATE_GENERATION and TM_AS3_BANNER_GENERATION to any value to have the
 #  parser keep the associated part of the document.
 
 as3_template_parser.rb &lt; class.as</string>

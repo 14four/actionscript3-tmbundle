@@ -12,7 +12,7 @@ class SnippetBuilder
   private
 
   def initialize(tp=nil)
-    @as3_doc = ENV['TM_ASDOC_GENERATION']
+    @as3_doc = ENV['TM_ASDOC_GENERATION'] != nil && ENV['TM_ASDOC_GENERATION'] == 'on'
     @t = tp ? tp : SnippetProvider.new
   end
 
@@ -25,9 +25,15 @@ class SnippetBuilder
   def doc(tag,check_doc=false)
 
     return "" if check_doc && include_docs == false
-
+    
     b = binding
-    d = File.read(@t.doc)
+    
+    if tag == "short"
+       d = File.read(@t.sdoc)
+    else
+        d = File.read(@t.doc)
+    end
+    
     t = ERB.new(d)
     t.result b
 
@@ -87,7 +93,7 @@ class SnippetBuilder
     generate_method(name,ns,doc_tag,@t.i_method_handler)
   end
 
-  def var(name="name",ns="public",doc_tag="private")
+  def var(name="name",ns="public",doc_tag="short")
     if ns == "public"
       generate_method(name,ns,doc_tag,@t.property)
     else

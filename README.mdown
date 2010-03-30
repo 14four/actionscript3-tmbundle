@@ -177,7 +177,13 @@ Name used in copyright notices in most templates.
 
 * `TM_ASDOC_GENERATION`  
 If you would like asdoc blocks automatically inserted when using commands,
-snippets, and templates then enable this variable and set this value to anything.
+and snippets, then enable this variable and set this value to anything.
+Please note this feature is currently being added and therefore not always
+available.
+
+* `TM_ASDOC_TEMPLATE_GENERATION`  
+If you would like asdoc blocks automatically inserted when using templates 
+then enable this variable and set this value to anything.
 Please note this feature is currently being added and therefore not always
 available.
 
@@ -199,6 +205,7 @@ Colon separated list of directories within which the bundle may find source file
 
 * `TM_AS3_TEMPLATE_BUNDLES`  
 Pipe separated list of Bundles to search when finding templates.
+lates.
 
 * `TM_FLEX_SDK_SEARCH_PATHS`
 Colon separated list of directories the bundle uses to try and locate the Flex 

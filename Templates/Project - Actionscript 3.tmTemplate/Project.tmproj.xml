@@ -96,6 +96,14 @@
 			<key>value</key>
 			<string>on</string>
 			<key>variable</key>
+			<string>TM_ASDOC_TEMPLATE_GENERATION</string>
+		</dict>
+		<dict>
+			<key>enabled</key>
+			<false/>
+			<key>value</key>
+			<string>on</string>
+			<key>variable</key>
 			<string>TM_ASDOC_GENERATION</string>
 		</dict>
 		<dict>
@@ -105,7 +113,6 @@
 			<string>on</string>
 			<key>variable</key>
 			<string>TM_AS3_BANNER_GENERATION</string>
-		</dict>
 		<dict>
 			<key>enabled</key>
 			<false/>
