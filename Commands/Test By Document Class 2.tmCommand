@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveModifiedFiles</string>
+	<key>command</key>
+	<string>echo "var testDocument;
+
+	for (doc in fl.documents) {
+		var docClass = fl.documents[doc].docClass;
+		var dDot = docClass.lastIndexOf('.');
+		var strippedDoc = docClass.substr(dDot+1, docClass.length);
+		var testDoc = strippedDoc + '.as';
+		if (testDoc == '${TM_FILENAME}') {
+			testDocument = fl.documents[doc];
+		}
+	}
+
+	if(!testDocument) {
+		testDocument = fl.getDocumentDOM(); 
+	}
+
+	if(${TM_CREATE_INFO:-false}){
+		buildTimeURI = 'file://' + testDocument.path.replace(testDocument.name,'') + testDocument.name.replace('.fla','.info');
+		var currDate = new Date();
+		var info = '&lt;i&gt;&lt;d&gt;' + currDate.toUTCString() + '&lt;/d&gt;&lt;a&gt;' + '${TM_FULLNAME}' + '&lt;/a&gt;&lt;/i&gt;'
+		FLfile.write(buildTimeURI, info );
+	}
+
+	testDocument.testMovie();" &gt; /tmp/test.jsfl;
+
+	open /tmp/test.jsfl;
+
+end</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>@</string>
+	<key>name</key>
+	<string>Test By Document Class(Numpad)</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>D080DC5C-AC6D-4015-88EC-5AE022068C35</string>
+</dict>
+</plist>

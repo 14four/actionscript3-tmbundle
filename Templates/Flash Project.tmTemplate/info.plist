@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<string># TM_DEFAULT_CLASS_PATH now available for setting the default class path in the prefences panel
+
+
+"./_create_ide_project.sh"</string>
+	<key>extension</key>
+	<string>as</string>
+	<key>name</key>
+	<string>Flash Project</string>
+	<key>uuid</key>
+	<string>A6D027EA-E024-4FF6-B5A3-C59B61F3D2AB</string>
+</dict>
+</plist>

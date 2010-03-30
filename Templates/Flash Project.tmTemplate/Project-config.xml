@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<root>
+	<project name="${TM_NEW_FILE_BASENAME}">
+		<property id="id"><![CDATA[Value]]></property>
+	</project>
+</root>

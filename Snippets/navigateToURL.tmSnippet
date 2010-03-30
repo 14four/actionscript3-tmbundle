@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>navigateToURL( new URLRequest("$1"), "${2:_blank}" );</string>
+	<key>name</key>
+	<string>navigateToURL</string>
+	<key>scope</key>
+	<string>source.actionscript.3</string>
+	<key>tabTrigger</key>
+	<string>nav</string>
+	<key>uuid</key>
+	<string>A4B7F57C-AAE5-4528-88AF-9DA57D83E48D</string>
+</dict>
+</plist>
