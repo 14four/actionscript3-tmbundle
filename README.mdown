@@ -11,6 +11,8 @@ Features:
  * ASDoc Support.
  * Class and Component Templates.
  * Shortcut's to open Super Class, Code Behind and Import file.
+ 	
+ * Added Custom Templates, Snippets, Commands for use with Flash Workflow
 
 # Installation
 
@@ -19,16 +21,9 @@ Via download:
  * Open this [link][bundle_zip]  
  * Unzip the download  
  * Rename the folder to ActionScript 3.tmbundle  
- * Double-click  
- * TextMate handles the rest!  
+ * Move to User/Library/Application Support/Textmate/Bundles/
+ * Relaunch Textmate
 
-To install via Git:
-
-		cd ~/"Library/Application Support/TextMate/Bundles/"
-		git clone git://github.com/simongregory/actionscript3-tmbundle.git "ActionScript 3.tmbundle"
-		osascript -e 'tell app "TextMate" to reload bundles'
-
-Source can be viewed and forked via [GitHub][repo_master]
 
 ## SDK
 
@@ -278,7 +273,7 @@ If not otherwise specified (see below), files in this project fall under the fol
 
 An exception is made for files in readable text which contain their own license information, or files where an accompanying file exists (in the same directory) with a “-license” suffix added to the base-name name of the original file, and an extension of txt, html, or similar.
 
-[bundle_zip]: http://github.com/simongregory/actionscript3.tmbundle/zipball/master
+[bundle_zip]: http://github.com/14four/actionscript3-tmbundle/zipball/master
 [issue_tracker]: http://github.com/simongregory/actionscript3.tmbundle/issues
 [repo]: http://github.com/simongregory/actionscript3.tmbundle/
 [repo_master]: http://github.com/simongregory/actionscript3.tmbundle/tree/master
