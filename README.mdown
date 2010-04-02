@@ -10,8 +10,7 @@ Features:
  * Drag and Drop of imports, includes, embed assets, css, xml.
  * ASDoc Support.
  * Class and Component Templates.
- * Shortcut's to open Super Class, Code Behind and Import file.
- 	
+ * Shortcut's to open Super Class, Code Behind and Import file. 	
  * Added Custom Templates, Snippets, Commands for use with Flash Workflow
 
 # Installation
@@ -181,6 +180,10 @@ If you would like asdoc blocks automatically inserted when using templates
 then enable this variable and set this value to anything.
 Please note this feature is currently being added and therefore not always
 available.
+
+* TM_DEFAULT_CLASS_PATH
+If you want to change the default class used by the Flash Project Template, you
+can set this. This has to be defined in the main shell variables in preferences.
 
 * `TM_AS3_BANNER_GENERATION`  
 To have code banners inserted into the class templates set the value of this
